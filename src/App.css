@@ -1,38 +1,50 @@
+body {
+  background: url("../public/desktop-wallpaper-pastels-watercolor-world-map-in-2022-world-map-2022.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h2 {
+  margin-top: 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 5px 20px 1px #a8a8a8, 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  margin: 2px;
+  font-size: 15px;
+  padding: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 5px 20px 1px #a8a8a8, 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background-color: green;
   color: white;
+  font-size: 15px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  background-color: white;
+  border-radius: 12px;
+  width: 350px;
+  height: 300px;
+  border: none;
+  margin: 5px auto;
+  box-shadow: 0 5px 20px 1px #a8a8a8, 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
